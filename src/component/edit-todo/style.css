@@ -1,0 +1,49 @@
+.edit-main {
+  width: 80%;
+  margin: 3em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 1em;
+  border-radius: 1em;
+  gap: 2em;
+  background-color: bisque;
+}
+
+.edit-main h1 {
+  color: rgb(91, 90, 67);
+  text-align: center;
+}
+
+.edit {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 3em;
+}
+
+.edit > input {
+  width: 80%;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 1em 2em;
+}
+
+.edit button {
+  width: 12em;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  padding: 1em 3em;
+}
+
+@media screen and (max-width: 600px) {
+  .edit-main {
+    width: 90%;
+  }
+  .edit {
+    flex-direction: column;
+    gap: 1em;
+  }
+}
